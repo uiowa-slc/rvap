@@ -1,0 +1,45 @@
+.hero-text li a{
+	background: #00B4BF;
+
+}
+
+.module .media {
+border-bottom: 4px solid #00B4BF;
+}
+
+
+/* escape button */
+
+#exit {
+	display: none;
+	@media (min-width: $break-large) { 
+		display: block;
+		background: url('../images/exit.gif') top;
+		position: fixed;
+		width:40px;
+		height: 196px;
+		top:45%;
+		z-index: 101;
+	}
+
+}
+
+#exit:hover {
+	
+	background-position: bottom; 
+	cursor: pointer;
+}
+
+.hero {
+border-bottom: 5px solid #00B4BF !important;
+position: relative;
+padding: 2em 0;
+background-color: #FFF;
+}
+
+
+.hero-link:after {
+	
+	border-color: transparent transparent transparent #00B4BF;
+
+}
