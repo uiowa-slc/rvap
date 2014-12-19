@@ -9,6 +9,7 @@
 	<meta name="description" content="" /> 
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta name="google-translate-customization" content="e214d9a845cc638a-a26de0bb26075cba-g4b1a618f706d03b4-17"></meta>
 	
 	<link rel="shortcut icon" href="division-project/images/favicon.ico" />
 	
