@@ -46,10 +46,10 @@ function googleTranslateElementInit() {
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         	<hr />
-			<img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" /><br />
-			<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" />
+        	<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" /><br />
+			<img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" />
 			<hr />
-			<h4>Support RVAP</h4>
+			<h4>Support RVAP Today</h4>
 				
 				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=rvap" class="appt-btn">Give Online Now</a>
 			</div>
