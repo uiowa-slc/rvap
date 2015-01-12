@@ -46,8 +46,8 @@ function googleTranslateElementInit() {
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         	<hr />
-			<img src="{$ThemeDir}/images/isah-footer.png" /><br />
-			<img src="{$ThemeDir}/images/rvap-footer.png" />
+			<img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" /><br />
+			<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" />
 			<hr />
 			<h4>Support RVAP</h4>
 				
