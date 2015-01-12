@@ -7,4 +7,5 @@
                 <% if $BackgroundFeature.Buttons %>
                 	$BackgroundFeature.Buttons
   				<% end_if %>
+  			</div>
                         

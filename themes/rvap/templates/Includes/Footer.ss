@@ -41,12 +41,17 @@
 				<div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+
+
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         	<hr />
-				<h4>Support The Division</h4>
+			<img src="{$ThemeDir}/images/isah-footer.png" /><br />
+			<img src="{$ThemeDir}/images/rvap-footer.png" />
+			<hr />
+			<h4>Support RVAP</h4>
 				
-				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>
+				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=rvap" class="appt-btn">Give Online Now</a>
 			</div>
         </div>
         <hr>
