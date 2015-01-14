@@ -32,6 +32,10 @@ border-bottom: 4px solid #00B4BF;
 	}
 }
 
+.footer .footer-right img{
+	max-width: 100%;
+}
+
 /* escape button */
 
 #exit {
@@ -49,21 +53,17 @@ border-bottom: 4px solid #00B4BF;
 }
 
 #exit:hover {
-	
 	background-position: bottom; 
 	cursor: pointer;
 }
 
 .hero {
-border-bottom: 5px solid #00B4BF !important;
-position: relative;
-padding: 2em 0;
-background-color: #FFF;
+	border-bottom: 5px solid #00B4BF !important;
+	position: relative;
+	padding: 2em 0;
+	background-color: #FFF;
 }
 
-
 .hero-link:after {
-	
 	border-color: transparent transparent transparent #00B4BF;
-
 }

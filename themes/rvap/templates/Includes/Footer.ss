@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-1-4 hide-print">
+			<div class="col-1-4 hide-print footer-right">
 				<h4>Translate this Website</h4>
 				<div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
@@ -45,13 +45,20 @@ function googleTranslateElementInit() {
 
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        	<hr />
-        	<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" /><br />
-			<img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" />
+			<br />
 			<hr />
 			<h4>Support RVAP Today</h4>
-				
 				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=rvap" class="appt-btn">Give Online Now</a>
+        	<br />
+        	<hr />
+        	<div class="row">
+        		<div class="large-6 columns">
+        			<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" />
+        		</div>
+        		<div class="large-6 columns">
+					<a href="isah/"><img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" /></a>
+        		</div>
+        	</div>
 			</div>
         </div>
         <hr>
