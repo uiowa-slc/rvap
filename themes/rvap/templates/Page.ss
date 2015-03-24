@@ -10,20 +10,25 @@
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 	<meta name="google-translate-customization" content="e214d9a845cc638a-a26de0bb26075cba-g4b1a618f706d03b4-17"></meta>
-	
+	<% include OpenGraph %>
 	<link rel="shortcut icon" href="division-project/images/favicon.ico" />
 	
 	<title>$Title - $SiteConfig.Title - The University of Iowa</title>
-
-	<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/master.css" />
-	<link rel="stylesheet" type="text/css" href="division-bar/css/_division-bar.css" />
-
+	<style>
+		<% include CriticalCss %>
+	</style>
+	<% include LoadCss %>
+	<script>
+	  loadCSS( "$ThemeDir/css/master.css" );
+	</script>
+	<noscript><link href="$ThemeDir/css/master.css" rel="stylesheet"></noscript>
 	<!--[if lt IE 9]>
-		<script src="division-project/js/vendor/html5shiv.min.js"></script>
-		<script src="division-project/js/vendor/respond.min.js"></script>
+	  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+	  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+	  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="//use.typekit.net/ivn3muh.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 
 <body>
@@ -31,10 +36,34 @@
 
     <% include Header %>
     $Layout
-    
-	<a id="exit" href="http://weather.com"></a>
+    <a id="exit" href="http://weather.com"></a>
+    <% include SubFooter %>
     <% include Footer %>
-    <script type="text/javascript" src="{$ThemeDir}/build/build.js"></script>
+    <% include MdBar %>
+
+	<script type="text/javascript">
+	function downloadJSAtOnload() {
+	var element = document.createElement("script");
+	element.src = "$ThemeDir/build/build.js";
+	document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+	</script>
 	<% include GoogleAnalytics %>
+	<script type="text/javascript">
+	(function(d) {
+	  var tkTimeout=3000;
+	  if(window.sessionStorage){if(sessionStorage.getItem('useTypekit')==='false'){tkTimeout=0;}}
+	  var config = {
+	    kitId: 'ivn3muh',
+	    scriptTimeout: tkTimeout
+	  },
+	  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+"wf-inactive";if(window.sessionStorage){sessionStorage.setItem("useTypekit","false")}},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	})(document);
+	</script>
 </body>
 </html>
