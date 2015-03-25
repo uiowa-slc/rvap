@@ -53,7 +53,7 @@ function googleTranslateElementInit() {
         	<hr />
         	<div class="row">
         		<div class="large-6 columns">
-        			<img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" />
+        			<a href="$BaseHref"><img src="{$ThemeDir}/images/rvap-footer.png" alt="RVAP's Logo" /></a>
         		</div>
         		<div class="large-6 columns">
 					<a href="isah/"><img src="{$ThemeDir}/images/isah-footer.png" alt="Iowa Sexual Abuse Hotline 1-800-284-7821" /></a>

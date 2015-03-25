@@ -24,12 +24,17 @@ border-bottom: 4px solid #00B4BF;
 	background: #fff url(../images/nav_yellow.gif) repeat-x left bottom;
 }
 
-.module.facebook{
+.module.facebook {
+	border-top: 4px solid #00B4BF;
 	overflow: hidden;
+	iframe { width: 240px;
 
-	iframe{
-		width: 100% !important;
 	}
+
+	@media screen and (min-width: $break-medium){
+		iframe {width: 100%;}
+	}
+
 }
 
 .footer .footer-right img{

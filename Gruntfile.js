@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         },                  // Target
         options: {              // Target options
           style: 'compressed',
-          loadPath: ['division-project/scss', 'division-bar/scss']
+          loadPath: ['division-project/scss', 'division-bar/scss', 'division-project/bower_components/foundation/scss' ]
         }
       }
     },
