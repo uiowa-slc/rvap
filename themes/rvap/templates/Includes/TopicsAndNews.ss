@@ -1,4 +1,4 @@
-  		<section class="topics hide-print">
+  		<%--<section class="topics hide-print">
             <div class="container">
                 <div class="colgroup">
                     <div class="col-1-2 mod">
@@ -12,4 +12,4 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --%>
