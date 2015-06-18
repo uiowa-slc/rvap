@@ -23,10 +23,16 @@
 				<div class="colgroup">
 					<ul class="footer-nav">
 						<% if $SiteConfig.FacebookLink %>
-						<li><a href="$SiteConfig.FacebookLink" target="_blank"><i class="icon-facebook"></i> Facebook</a></li>
+							<li><a href="$SiteConfig.FacebookLink" target="_blank"><span class="social-icon">F</span> Facebook</a></li>
 						<% end_if %>
 						<% if $SiteConfig.TwitterLink %>
-						<li><a href="$SiteConfig.TwitterLink" target="_blank"><i class="icon-twitter"></i> Twitter</a></li>
+							<li><a href="$SiteConfig.TwitterLink" target="_blank"><span class="social-icon">t</span> Twitter</a></li>
+						<% end_if %>
+						<% if $SiteConfig.VimeoLink %>
+							<li><a href="$SiteConfig.VimeoLink" target="_blank"><span class="social-icon">v</span> Vimeo</a></li>
+						<% end_if %>
+						<% if $SiteConfig.YouTubeLink %>
+							<li><a href="$SiteConfig.YouTubeLink" target="_blank"><span class="social-icon">y</span> Youtube</a></li>
 						<% end_if %>
 					</ul>
 					<ul class="footer-nav">
