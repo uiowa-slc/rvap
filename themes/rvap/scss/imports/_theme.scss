@@ -41,6 +41,17 @@ border-bottom: 4px solid #00B4BF;
 	max-width: 100%;
 }
 
+/* Image badge used in page titles */
+
+.main-content h1 img{
+	float: right;
+	@media screen and (min-width: $break-medium){
+		padding-right: 20px;
+		float: none;
+	}
+
+}
+
 /* escape button */
 
 #exit {
