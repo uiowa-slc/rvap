@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-1-4 hide-print">
 				<div class="colgroup">
-					<ul class="footer-nav">
+					<ul class="footer-nav border-list">
 						<% if $SiteConfig.FacebookLink %>
 							<li><a href="$SiteConfig.FacebookLink" target="_blank"><span class="social-icon">F</span> Facebook</a></li>
 						<% end_if %>
@@ -35,7 +35,7 @@
 							<li><a href="$SiteConfig.YouTubeLink" target="_blank"><span class="social-icon">y</span> Youtube</a></li>
 						<% end_if %>
 					</ul>
-					<ul class="footer-nav">
+					<ul class="footer-nav border-list">
 						<% loop Menu(1) %>
 							<li><a href="$Link">$MenuTitle</a></li>
 						<% end_loop %>
