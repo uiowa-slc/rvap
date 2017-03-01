@@ -1,0 +1,127 @@
+fieldset {
+	display: inline-block;
+}
+
+#event-photo {
+	padding-bottom: 10px;
+}
+
+#event-calendar-events h2 {
+	margin: 0;
+}
+
+#Form_MonthJumpForm {
+	background-color: white;
+	margin: 2px 2px 2px 2px;
+	border: 1px solid #ddd;
+}
+
+#Form_MonthJumpForm div {
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+}
+
+.Actions {
+	margin: 0px;
+}
+
+.event-calendar-controls {
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.event-calendar-controls h3 {
+	font-size: 18px;
+	font-family: $body-font;
+}
+
+.field {
+	margin-bottom: 0px;
+}
+
+.FBold {
+	margin: 2px 2px 2px 2px;
+	text-align: center;
+	padding: 6px;
+}
+
+.calendar-widget-table {
+	margin: 1px 0 7px 0;
+
+	//padding: 3px 3px 3px 3px;
+}
+
+.calendar-widget-table table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	border-spacing: 0px;
+	margin: 0;
+
+	td.hasEvent:before {
+		color: #7BCDF0;
+		content: "\2022";
+		padding-right: 3px;
+		position: absolute;
+		left: 45%;
+		top: 55%;
+	}
+}
+
+.calendar-widget-table table td, .calendar-widget table thead:first-child tr:first-child th {
+	// border: 1px solid #ddd;
+	// background: #ECEAE8;
+}
+
+.calendar-widget-table thead th {
+	text-align: center;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+.calendar-widget-table tbody td {
+	background-color: #fff;
+	padding: 4px;
+	width: 13%;
+	font-size: 1em;
+}
+
+.calendar-widget-table tbody .calendar-header td {
+	background-color: #555;
+	color: #fff;
+	border-color: #555;
+}
+
+.calendar-widget-table tbody .calendar-day {
+	text-align: right;
+}
+
+.calendar-widget-table tbody .show-week {
+	width: 9%;
+	text-align: center;
+}
+
+.calendar-widget-table tbody .calendar-day:hover,
+.calendar-widget tbody .show-week:hover,
+.calendar-widget tbody .selected {
+	background-color: #d9edf7;
+	cursor: pointer;
+	color: #3a87ad;
+}
+
+.calendar-widget-table tbody .out-of-month {
+	background-color: #eee;
+	color: #999;
+}
+
+.calendar-widget-table tbody .today {
+	font-weight: 700;
+	color: #3a87ad;
+}
+
+.calendar-widget-table tbody .hasEvent {
+	// background-image:url(../../../event_calendar/images/dot.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-weight: bold;
+}
