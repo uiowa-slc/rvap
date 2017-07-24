@@ -201,16 +201,16 @@
         },
         {
             "name": "facebook/graph-sdk",
-            "version": "5.5.x-dev",
+            "version": "5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "7af9f275dee7fde814e11fe969fa2b9776c0e496"
+                "reference": "34f5e5993c67acd264017373f23848961585dcac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/7af9f275dee7fde814e11fe969fa2b9776c0e496",
-                "reference": "7af9f275dee7fde814e11fe969fa2b9776c0e496",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/34f5e5993c67acd264017373f23848961585dcac",
+                "reference": "34f5e5993c67acd264017373f23848961585dcac",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +255,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-07-15 18:12:44"
+            "time": "2017-07-23 14:06:52"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -464,12 +464,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "7a75e108c0b176ae134baffaebb0f99891cf3489"
+                "reference": "3ce01e7f0e3803617d4d5050ae12f5557f13b659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/7a75e108c0b176ae134baffaebb0f99891cf3489",
-                "reference": "7a75e108c0b176ae134baffaebb0f99891cf3489",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3ce01e7f0e3803617d4d5050ae12f5557f13b659",
+                "reference": "3ce01e7f0e3803617d4d5050ae12f5557f13b659",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +516,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-07-21 20:39:06"
+            "time": "2017-07-24 15:06:57"
         },
         {
             "name": "md/rss-display",
