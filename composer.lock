@@ -464,12 +464,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "8e3b1bb6465315be302c5559002fd68b2d2bdaa3"
+                "reference": "660bf5f36a49e1e752a77c03d7d5ef6ff18a4343"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/8e3b1bb6465315be302c5559002fd68b2d2bdaa3",
-                "reference": "8e3b1bb6465315be302c5559002fd68b2d2bdaa3",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/660bf5f36a49e1e752a77c03d7d5ef6ff18a4343",
+                "reference": "660bf5f36a49e1e752a77c03d7d5ef6ff18a4343",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +516,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-07-24 20:33:49"
+            "time": "2017-07-28 20:57:47"
         },
         {
             "name": "md/rss-display",
@@ -1901,12 +1901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "a936296cd81d7ca1eec41ac6217e21e6a1afb887"
+                "reference": "8b47ee93efd61f86c2597f9e53b74107cb054ffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/a936296cd81d7ca1eec41ac6217e21e6a1afb887",
-                "reference": "a936296cd81d7ca1eec41ac6217e21e6a1afb887",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/8b47ee93efd61f86c2597f9e53b74107cb054ffb",
+                "reference": "8b47ee93efd61f86c2597f9e53b74107cb054ffb",
                 "shasum": ""
             },
             "require": {
@@ -1953,7 +1953,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2017-06-15 01:05:26"
+            "time": "2017-07-28 06:15:06"
         },
         {
             "name": "symbiote/silverstripe-addressable",
