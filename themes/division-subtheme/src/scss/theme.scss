@@ -12,18 +12,26 @@
 	visibility: visible
 }
 
-.blogmeta__support{
-	padding: rem-calc(15) 0;
-	font-size: rem-calc(16);
-	background: $highlight;
-	color: white;
-	padding: rem-calc(5);
-	margin: rem-calc(20) 0;
-	border-radius: rem-calc(5);
+.support{
+	
 	text-align: center;
 	clear: both;
 	display: block;
-	a{
-		color: white;
+	margin: rem-calc(20) 0;
+	&__link{
+		font-size: rem-calc(16);
+		font-weight: bold;
+		padding: rem-calc(5) 0;
+		
+		color: #222;
+		text-transform: uppercase;
+		font-family: "proxima-nova-condensed";
+		
+			border-bottom: 2px solid $highlight;
+	
+		
 	}
+
+
+	
 }
