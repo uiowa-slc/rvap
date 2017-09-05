@@ -53,7 +53,7 @@ $Header
 							<li><a href="javascript:window.open('https://www.linkedin.com/cws/share?url=$AbsoluteLink', '_blank', 'width=400,height=500');void(0);" title="Share on LinkedIn" target="_blank"><img src="{$ThemeDir}/dist/images/icon_linkedin.png" alt="share on linkedid"></a></li>
 						</ul>
 						<div class="clearfix"></div>
-						<p class="support"><a class="support__link" href="https://goldrush.uiowa.edu/rvap" target="_blank">Support RVAP now</a></p>
+						<p class="support"><a class="support__link" href="give/" target="_blank">Support RVAP now</a></p>
 					</div>
 					<% if $FeaturedImage %>
 						<% if FeaturedImage.Width < 700 %>
