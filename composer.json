@@ -49,7 +49,16 @@
         {
              "type": "vcs",
              "url": "https://github.com/PlatoCreative/silverstripe-typekit"
+        },
+       	{
+             "type": "vcs",
+             "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
+        },
+        {
+             "type": "vcs",
+             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp"
         }  
     ]
 
 }
+
