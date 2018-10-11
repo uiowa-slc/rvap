@@ -1116,12 +1116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "c34ecf6918d7b92e08cec7a89d239a10b23667a2"
+                "reference": "56fbc0e2814efd6b2fb1fd623d5b0baef1418987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/c34ecf6918d7b92e08cec7a89d239a10b23667a2",
-                "reference": "c34ecf6918d7b92e08cec7a89d239a10b23667a2",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/56fbc0e2814efd6b2fb1fd623d5b0baef1418987",
+                "reference": "56fbc0e2814efd6b2fb1fd623d5b0baef1418987",
                 "shasum": ""
             },
             "require": {
@@ -1141,7 +1141,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/ss4.x-ui",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-10-04T18:37:55+00:00"
+            "time": "2018-10-11T18:59:31+00:00"
         },
         {
             "name": "md/division-analytics",
@@ -1176,12 +1176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "4859ab20f73321436e94fc85b9c8b4d14413f89d"
+                "reference": "f84ccb684458a24f26add04b1ee3e25bc4cea556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/4859ab20f73321436e94fc85b9c8b4d14413f89d",
-                "reference": "4859ab20f73321436e94fc85b9c8b4d14413f89d",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/f84ccb684458a24f26add04b1ee3e25bc4cea556",
+                "reference": "f84ccb684458a24f26add04b1ee3e25bc4cea556",
                 "shasum": ""
             },
             "require": {
@@ -1227,7 +1227,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-10-11T15:19:41+00:00"
+            "time": "2018-10-11T18:15:51+00:00"
         },
         {
             "name": "md/saml",
