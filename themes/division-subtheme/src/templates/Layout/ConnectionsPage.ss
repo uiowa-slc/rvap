@@ -35,11 +35,11 @@ $Header
 		</div>
 	<% end_if %>
 
-	$BlockArea(BeforeContent)
+	$BeforeContent
 
 	<div class="row">
 		<div role="main" class="main-content main-content--with-padding <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-			$BlockArea(BeforeContentConstrained)
+			$BeforeContentConstrained
 			<div class="main-content__text">
 				<% if $PaginatedList.Exists %>
 					<% loop $PaginatedList %>
@@ -59,7 +59,7 @@ $Header
 								<% end_if %>
 
 								<h3 class="bloglistitem__heading"><a href="$Link" target="_blank">$Title</a></h3>
-								<p class="bloglistitem__desc">$Description.LimitCharacters(150) 
+								<p class="bloglistitem__desc">$Description.LimitCharacters(150)
 
 								<div class="blogmeta__byline">
 									<p><em class="byline__on">Posted on</em>
@@ -71,7 +71,7 @@ $Header
 					<% end_loop %>
 				<% end_if %>
 
-				$BlockArea(AfterContentConstrained)
+				$AfterContentConstrained
 				$Form
 				$CommentsForm
 
@@ -88,10 +88,10 @@ $Header
 			<% if $SideBarView %>
 				$SideBarView
 			<% end_if %>
-			$BlockArea(Sidebar)
+			$SidebarArea
 		</aside>
 	</div>
 
-	$BlockArea(AfterContent)
+	$AfterContent
 
 </main>

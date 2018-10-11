@@ -14,7 +14,7 @@ $Header
 		</div>
 	<% end_if %>
 
-	$BlockArea(BeforeContent)
+	$BeforeContent
 
 	<div class="row">
 
@@ -28,7 +28,7 @@ $Header
 
 				<script src='https://widgets.kimbia.com/widgets/form.js?channel=uif-events/2018rvap'></script>
 			</div>
-			$BlockArea(AfterContentConstrained)
+			$AfterContentConstrained
 			$Form
 			<% if $ShowChildPages %>
 				<% include ChildPages %>
@@ -39,9 +39,9 @@ $Header
 			<% if $SideBarView %>
 				$SideBarView
 			<% end_if %>
-			$BlockArea(Sidebar)
+			$SidebarArea
 		</aside>
 	</div>
-	$BlockArea(AfterContent)
+	$AfterContent
 
 </main>
