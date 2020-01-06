@@ -1,2 +1,6 @@
 SilverStripe\Control\Email\Email:
   admin_email: imu-web@uiowa.edu
+IsahResource:
+  extensions:
+    - Symbiote\Addressable\Addressable
+    - Symbiote\Addressable\Geocodable
