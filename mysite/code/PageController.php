@@ -25,5 +25,7 @@ class PageController extends ContentController {
 		parent::init();
 
 	}
-
+	public function OtherDirectoryResources() {
+		return IsahDirectoryPage::get();
+	}
 }

@@ -12,7 +12,8 @@ class IsahResourceCategory extends DataObject {
 		'IsahProjectDirectoryURLSegmentExtension',
 	);
 
-	private static $singular_name     = 'ResourceCategory';
+	private static $singular_name     = 'Resource Category';
+	private static $plural_name     = 'Resource Categories';
 	private static $belongs_many_many = array(
 		'Resources' => 'IsahResource',
 	);

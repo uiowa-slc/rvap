@@ -17,7 +17,7 @@ class IsahProjectDirectory extends Page {
 	private static $defaults = array(
 		'Content' => '',
 	);
-	private static $singular_name = 'Directory';
+	private static $singular_name = 'Resource Directory';
 	private static $icon_class = 'font-icon-book'; 
 
 	public function getCMSFields() {

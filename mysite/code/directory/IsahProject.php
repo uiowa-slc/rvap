@@ -37,7 +37,7 @@ class IsahProject extends Page {
 		'Content' => '',
 	);
 
-	private static $singular_name = 'Project';
+	private static $singular_name = 'Resource Directory Project';
 
 	public function getCMSFields() {
 		$f = parent::getCMSFields();

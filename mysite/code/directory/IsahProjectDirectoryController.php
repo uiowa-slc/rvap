@@ -88,6 +88,7 @@ class IsahProjectDirectoryController extends PageController {
 				}
 				
 				if ($county) {
+					
 					$data = new ArrayData(array(
 							'County' => $county,
 						));
