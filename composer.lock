@@ -1487,12 +1487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar.git",
-                "reference": "8cda8c6f956caec0a28627560cf075eb643ffce0"
+                "reference": "817e60f8f5bd6b78a0876f0175d8f3b631f2211b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/8cda8c6f956caec0a28627560cf075eb643ffce0",
-                "reference": "8cda8c6f956caec0a28627560cf075eb643ffce0",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/817e60f8f5bd6b78a0876f0175d8f3b631f2211b",
+                "reference": "817e60f8f5bd6b78a0876f0175d8f3b631f2211b",
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1506,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
             },
-            "time": "2020-03-13T17:43:43+00:00"
+            "time": "2020-03-13T18:17:18+00:00"
         },
         {
             "name": "monolog/monolog",
