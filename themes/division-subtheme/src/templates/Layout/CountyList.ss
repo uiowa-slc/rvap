@@ -7,26 +7,17 @@ $Header
 	<% end_if %>
 	<nav aria-label="Breadcrumb" class="breadcrumb no-print">
 		<div class="column row">
-			<ol class="clearfix breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
-				<li class="breadcrumb__listitem" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-					<a href="$BaseURL" class="breadcrumb__anchor" itemprop="item"><span class="breadcrumb__name" itemprop="name">Home</span></a><meta itemprop="position" content="1" />
-				</li>
-				
-				
-						<li class="breadcrumb__listitem" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a ></a>
-							<a href="directory/" class="breadcrumb__anchor" aria-current="page" itemprop="item"><span itemprop="name">Directory</span></a><meta itemprop="position" content="2" />
-						</li>
-						<li class="breadcrumb__listitem" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-							<a href="directory/county/list" class="breadcrumb__anchor" itemprop="item"><span itemprop="name">Counties</span></a><meta itemprop="position" content="3" />
-						</li>
-						
 
-			</ol>
 		</div>
 	</nav>
 <% if not $BackgroundImage %>
 	<div class="column row">
 		<div class="main-content__header">
+            <ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a itemprop="item" href="/directory"><span itemprop="name">Resource Directory</span></a><meta itemprop="position" content="1"></li>
+                <li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span class="show-for-sr">Current: </span><span itemprop="name">By County</span><meta itemprop="position" content="2"></li>
+            </ol>
 			<h1>Resources By County</h1>
 		</div>
 	</div>

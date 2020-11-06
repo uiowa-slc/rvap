@@ -14,12 +14,12 @@ $Header
 	</div>
 <% end_if %>
 
-$BlockArea(BeforeContent)
+$BeforeContent
 
 <div class="row">
 
-	<article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-		$BlockArea(BeforeContentConstrained)
+	<article class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarArea.Elements ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
+		$BeforeContentConstrained
 		<% if $MainImage %>
 			<img class="main-content__main-img" src="$MainImage.ScaleMaxWidth(500).URL" alt="" role="presentation"/>
 		<% end_if %>
@@ -28,7 +28,7 @@ $BlockArea(BeforeContent)
 			<hr />
 			<% include FeedbackLink %>
 		</div>
-		$BlockArea(AfterContentConstrained)
+		$AfterContentConstrained
 		$Form
 		<% if $ShowChildPages %>
 			<% include ChildPages %>
@@ -39,9 +39,9 @@ $BlockArea(BeforeContent)
 		<% if $SideBarView %>
 			$SideBarView
 		<% end_if %>
-		$BlockArea(Sidebar)
+		$Sidebar
 	</aside>
 </div>
-$BlockArea(AfterContent)
+$AfterContent
 
 </main>

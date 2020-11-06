@@ -5,21 +5,22 @@ $Header
   <% if $BackgroundImage %>
     <% include FeaturedImage %>
   <% end_if %>
-  $Breadcrumbs
+
 <% if not $BackgroundImage %>
   <div class="column row">
     <div class="main-content__header">
+        $Breadcrumbs
       <h1>$Title</h1>
     </div>
   </div>
 <% end_if %>
 
-$BlockArea(BeforeContent)
+$BeforeContent
 
 <div class="row">
 
-  <article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-    $BlockArea(BeforeContentConstrained)
+<article class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarArea.Elements ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
+    $BeforeContentConstrained
     <% if $MainImage %>
       <img class="main-content__main-img" src="$MainImage.ScaleMaxWidth(500).URL" alt="" role="presentation"/>
     <% end_if %>
@@ -31,13 +32,13 @@ $BlockArea(BeforeContent)
         <div id="directory-form">
         $Content
           <div class="row">
-            <div class="large-3 columns">
-              <p><button class="directory__button" id="get-location">Use my location</button></p>
+            <div class="large-4 columns">
+              <p><button class="button" id="get-location">Use my location <i class="fas fa-map-marker-alt"></i></button></p>
             </div>
             <div class="large-1 columns">
               <p class="or-padding">Or</p>
             </div>
-            <div class="large-8 columns">
+            <div class="large-7 columns">
                 $CountyForm
 
             </div>
@@ -59,7 +60,7 @@ $BlockArea(BeforeContent)
         <hr />
         <% include FeedbackLink %>
     </div>
-    $BlockArea(AfterContentConstrained)
+    $AfterContentConstrained
     $Form
     <% if $ShowChildPages %>
       <% include ChildPages %>
@@ -70,10 +71,10 @@ $BlockArea(BeforeContent)
     <% if $SideBarView %>
       $SideBarView
     <% end_if %>
-    $BlockArea(Sidebar)
+    $Sidebar
   </aside>
 </div>
-$BlockArea(AfterContent)
+$AfterContent
 
 </main>
 
