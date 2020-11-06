@@ -1,7 +1,7 @@
 <% if $County.Resources || $County.Project %>
 	<% with $County %>
 	<p><button class="button hollow outline" id="new-search-btn">Start a new search</button></p>
-	<h2>Showing results for <a href="$Link">$Title County</a>:</h2>
+	<h2>Showing results for {$Title} County:</h2>
 
 		<% if $Project %>
 

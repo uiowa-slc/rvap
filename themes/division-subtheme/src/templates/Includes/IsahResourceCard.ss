@@ -4,7 +4,7 @@
 
     <div class="card__body">
         <h3 class="card__title">
-            <a href="$Link">$Title</a>
+            $Title
         </h3>
 <% if $FullAddressHTML %>$FullAddressHTML<% end_if %>
 <% if $FriendlyDirections %><strong>Note:</strong> $FriendlyDirections <br /><% end_if %>
