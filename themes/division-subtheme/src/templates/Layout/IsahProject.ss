@@ -5,21 +5,22 @@ $Header
 	<% if $BackgroundImage %>
 		<% include FeaturedImage %>
 	<% end_if %>
-	$Breadcrumbs
+
 <% if not $BackgroundImage %>
 	<div class="column row">
 		<div class="main-content__header">
+            $Breadcrumbs
 			<h1>$Title</h1>
 		</div>
 	</div>
 <% end_if %>
 
-$BlockArea(BeforeContent)
+$BeforeContent
 
 <div class="row">
 
 	<article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-		$BlockArea(BeforeContentConstrained)
+		$BeforeContentConstrained
 		<% if $MainImage %>
 			<img class="main-content__main-img" src="$MainImage.ScaleMaxWidth(500).URL" alt="" role="presentation"/>
 		<% end_if %>
@@ -44,10 +45,10 @@ $BlockArea(BeforeContent)
 						<% loop $Counties %>
 							<li><a href="{$Top.Link}#{$URLSegment}">$Title</a></li>
 						<% end_loop %>
-					</ul>					
+					</ul>
 				</div>
 			</div>
-			
+
 			<% loop $Counties %>
 				<h2 id="$URLSegment">$Title County Resources</h2>
 				<% if $Resources %>
@@ -63,7 +64,7 @@ $BlockArea(BeforeContent)
 
 			<% include OtherDirectoryResources %>
 		</div>
-		$BlockArea(AfterContentConstrained)
+		$AfterContentConstrained
 		$Form
 		<% if $ShowChildPages %>
 			<% include ChildPages %>
@@ -74,9 +75,9 @@ $BlockArea(BeforeContent)
 		<% if $SideBarView %>
 			$SideBarView
 		<% end_if %>
-		$BlockArea(Sidebar)
+		$Sidebar
 	</aside>
 </div>
-$BlockArea(AfterContent)
+$AfterContent
 
 </main>
