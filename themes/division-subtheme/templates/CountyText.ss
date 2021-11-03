@@ -22,5 +22,6 @@
 
                         <% end_if %>
                     <% end_loop %>
+                    <hr class="element--spacer-thin" />
                 <% end_if %>
             <% end_with %>
