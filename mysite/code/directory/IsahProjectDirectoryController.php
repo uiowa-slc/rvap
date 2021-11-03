@@ -63,7 +63,16 @@ class IsahProjectDirectoryController extends PageController {
 					return $this->customise($data)->renderWith(array('County', 'Page'));
 				}
 				break;
-				
+
+            case 'showText':
+                $urlSegment = $this->getRequest()->param('ID');
+                $county     = County::get()->filter(array('URLSegment' => $urlSegment))->First();
+                if ($county) {
+                    $data = new ArrayData(array('County' => $county));
+                    return $this->customise($data)->renderWith(array('CountyText', 'Page'));
+                }
+                break;
+
 			case 'list':
 				$counties = County::get()->sort('Title ASC');
 				$data     = new ArrayData(
